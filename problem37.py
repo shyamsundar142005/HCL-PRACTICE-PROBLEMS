@@ -1,8 +1,8 @@
-def fibonacci(n):
+def fibonacci(a):
     a, b = 0, 1
-    for i in range(n):
+    for i in range(a):
         yield a
         a, b = b, a + b
-n = int(input("Enter n: "))
-for num in fibonacci(n):
+a = int(input("Enter n: "))
+for num in fibonacci(a):
     print(num, end=" ")
